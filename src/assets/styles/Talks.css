@@ -1,0 +1,17 @@
+.talks {
+  padding: 35px;
+}
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.talk-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.talk-card h1 {
+  color: #896ad0;
+}

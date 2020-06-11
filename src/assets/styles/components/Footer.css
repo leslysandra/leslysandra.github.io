@@ -1,0 +1,15 @@
+.footer {
+  padding: 0px 35px;
+  border-top: 1px solid #000;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.media a img {
+  padding: 30px;
+  width: 50px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}

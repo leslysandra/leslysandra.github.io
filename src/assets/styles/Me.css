@@ -1,0 +1,35 @@
+.me {
+  text-align: center;
+  padding: 35px;
+}
+.me-title-one {
+  color: #8789c0;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 180px;
+  font-size: 22px;
+}
+.facts p {
+  width: 500px;
+  text-align: center;
+}
+.facts img {
+  width: 400px;
+}
+.press {
+  margin-top: 10px;
+}
+.press-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.press-box a img {
+  width: 200px;
+  padding: 10px;
+}
