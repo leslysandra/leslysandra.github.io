@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../assets/styles/components/Header.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../assets/styles/components/Header.css';
 
 class Header extends React.Component {
   state = {
@@ -27,7 +27,7 @@ class Header extends React.Component {
         </Link>
         <ul
           ref={this.nav}
-          className={`navigator ${this.state.active ? "navigator-active" : ""}`}
+          className={`navigator ${this.state.active ? 'navigator-active' : ''}`}
         >
           <Link className="hack" to="/me">
             About

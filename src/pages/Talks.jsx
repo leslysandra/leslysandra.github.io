@@ -15,9 +15,9 @@ function Talks() {
               width="460"
               height="215"
               src="https://www.youtube.com/embed/bs0rkmg6n3g"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             <h1>RIIAA presentación CITY.AI</h1>
             <p>August 2019</p>
@@ -27,9 +27,9 @@ function Talks() {
               width="460"
               height="215"
               src="https://www.youtube.com/embed/iHZoj7eC5c4"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             <h1>TEDx USFX Sucre, Bolivia</h1>
             <p>August 2018</p>
@@ -39,9 +39,9 @@ function Talks() {
               width="460"
               height="215"
               src="https://www.youtube.com/embed/OFZo7Ls51vI"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             <h1>TEDx UCB Cochabamba, Bolivia</h1>
             <p>August 2018</p>

@@ -39,4 +39,7 @@
   .facts {
     padding: 0;
   }
+  .facts img {
+    width: 95%;
+  }
 }

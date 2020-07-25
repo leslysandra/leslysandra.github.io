@@ -21,8 +21,17 @@ header {
 }
 
 .go-home {
-  text-decoration: none;
+  text-overflow: ellipsis;
+  word-wrap: nowrap;
   color: #000;
+  max-width: 90%;
+}
+.go-home h1{
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 .burger {
   display: none;
@@ -46,7 +55,7 @@ header {
     height: 92vh;
     top: 8vh;
     background-color: #fff;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -63,6 +72,7 @@ header {
   .hack {
     /* opacity: ; */
     animation: navLinkFade;
+    width: 100%;
   }
   .burger {
     display: block;
@@ -70,6 +80,7 @@ header {
 }
 
 .navigator-active {
+  display: flex !important;
   transform: translateX(0%);
 }
 
