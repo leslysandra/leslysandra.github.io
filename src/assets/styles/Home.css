@@ -35,6 +35,12 @@
   animation: bounce 1s;
 }
 
+.companies img {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+}
+
 @keyframes bounce {
   0%,
   20%,
@@ -52,5 +58,16 @@
   80% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    text-align: center;
+    margin: 0px;
+    flex-direction: column;
+  }
+  .main-img {
+    margin-top: 10px;
   }
 }

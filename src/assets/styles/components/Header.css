@@ -18,7 +18,6 @@ header {
   background: rgba(0, 0, 0, 0);
   color: #7681b3;
   border-bottom: 3px solid;
-  box-shadow: unset 0 0 0 3px #d9f0ff;
 }
 
 .go-home {
@@ -46,16 +45,24 @@ header {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #c2cae8;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 5px;
+    width: 100%;
+    height: 100%;
     transform: translateX(100%);
     transition: transfrom 0.5s ease-in;
   }
+  .navigator a {
+    font-size: 36px;
+    margin-left: 18px;
+  }
   .hack {
-    opacity: 0;
+    /* opacity: ; */
+    animation: navLinkFade;
   }
   .burger {
     display: block;
@@ -64,4 +71,15 @@ header {
 
 .navigator-active {
   transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

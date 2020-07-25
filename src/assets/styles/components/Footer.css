@@ -13,3 +13,17 @@
   width: 50px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .media {
+    padding: 0;
+  }
+  .media a img {
+    padding: 5px;
+  }
+}
